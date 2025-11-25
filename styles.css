@@ -1,0 +1,148 @@
+        .navbar {
+            /*background: #1F201F;*/
+            background: #1A211A;
+        }
+        .titulos {
+            /*color: #EEDBF9;*/
+            color: #E0E3E0;
+        }
+        .letra {
+            color: #000000;
+        }
+        .seccion{
+            color: #ffffff;
+            font-size: 20px;
+        }
+        /*color cuadrados*/
+        .jumbotron{
+            /*background: #27033B;*/
+            /*background: linear-gradient(30deg, #27033B 0%, #4F4F4F 50%, #27033B 100%);*/
+            background: linear-gradient(30deg, #1A211A 0%, #464B46 50%, #1A211A 100%);
+        }
+        /*color fondo*/
+        body{
+            /*background: #3F0B5B;*/
+            /*background: linear-gradient(100deg, #27033B 10%, #6D318F 50%, #27033B 90%);*/
+            /*background: linear-gradient(157deg, #1F201F 45%, #767776 65%, #1F201F 95%);*/
+            background: linear-gradient(157deg, #1A211A 45%, #627662 65%, #1A211A 95%);
+        }
+
+        .box-s{
+            /*background: linear-gradient(8deg, #1D052C 15%, #836E91 60%, #1D052C 70%);*/
+            background: linear-gradient(0deg, #1D052C 0%, #836E91 22%, #1D052C 65%);
+            border-top-left-radius: 40%;
+            border-top-right-radius: 40%;
+            border-bottom-left-radius: 15%;
+            border-bottom-right-radius: 15%;
+        }
+
+        .modal-body{
+            color: #E6E3E8;
+            /*font-weight: bold;*/
+            /*background: linear-gradient(157deg, #330551 45%, #612689 65%, #420868 95%);*/
+            background: linear-gradient(30deg, #1A211A 0%, #464B46 50%, #1A211A 100%);  
+        }
+
+        .modal-header{
+            color: #51405D;
+            font-weight: bold;
+            /*background: linear-gradient(157deg, #D6BCEF 15%, #B186CE 40%, #E4D0F7 90%);*/
+            background: linear-gradient(30deg, #8d8891 0%, #ebe8ee 50%, #8d8891 100%); 
+        }
+
+        .modal-footer{
+            color: #C8C6CA;
+            font-weight: bold;
+            /*background: linear-gradient(157deg, #E4D0F7 15%, #B186CE 65%, #D6BCEF 95%);*/
+            background: linear-gradient(30deg, #8d8891 0%, #ebe8ee 50%, #8d8891 100%); 
+        }
+
+        .imgCirc{
+            border-radius: 40%;
+            overflow: hidden;
+            width: 100px;
+        }
+
+        a:active{
+          opacity: 0.5;
+        }
+
+        /*p{
+          font-size: 90%;
+          font-weight: bold;
+        }*/
+
+        ul.socialIcons {
+          padding: 0;
+          text-align: center;
+        }
+
+        .socialIcons li {
+          background-color: yellow;
+          list-style: none;
+          display: inline-block;
+          margin: 4px;
+          border-radius: 2em;
+          overflow: hidden;
+        }
+
+        .socialIcons li a {
+          display: block;
+          padding: 0.5em;
+          min-width: 2.2em;
+          max-width: 2.2em;
+          height: 2.2em;
+          white-space: nowrap;
+          line-height: 1.5em; /*it's working only when you write text with icon*/
+          text-decoration: none;
+          font-family: arial;
+          color: #fff;
+        }
+
+        .socialIcons li i {
+          margin-right: 0.5em;
+        }
+
+        .socialIcons .facebook {
+          background-color: #3b5998;
+          box-shadow: 0 0 16px #3b5998;
+        }
+
+        .socialIcons .instagram {
+          background-color: #cd486b;
+          box-shadow: 0 0 16px #cd486b;
+        }
+
+        .socialIcons .amazon {
+          background-color: #cd486b;
+          box-shadow: 0 0 16px #cd486b;
+        }
+
+        .clip{
+          width: 200px;
+          height: 400px;
+          object-fit: cover;
+        }
+        
+        @media screen and (min-width: 576px) {
+            .imgmenu{
+                display: none;
+            }
+        }
+
+        #menu * { list-style:none;}
+        #menu li{ line-height:180%;}
+        #menu li {color:#FFF; text-decoration:none; }
+        #menu li a{color:#DF4747; text-decoration:none; }
+        #menu li a span{color:#FFF; text-decoration:none; }
+        #menu li a:before{ content:"\025a0"; color:#ddd; margin-right:4px;}
+        #menu input[name="list"] {
+            position: absolute;
+            left: -1000em;
+            }
+        #menu label:before{ content:"\025b8"; margin-right:4px;}
+        #menu input:checked ~ label:before{ content:"\025be";}
+        #menu .interior{display: none;}
+        #menu input:checked ~ ul{display:block;}
+
+        
